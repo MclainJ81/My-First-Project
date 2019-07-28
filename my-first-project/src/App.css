@@ -8,8 +8,18 @@
   pointer-events: none;
 }
 
+.app-text {
+  background-color: #002962;
+  padding: 15px;
+  border-radius: 5px;
+}
+
 .App-header {
-  background-color: #282c34;
+  background-image: url('./images/Thunder background.jpg');
+  background-color: black;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
